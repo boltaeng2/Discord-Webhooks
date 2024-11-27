@@ -19,16 +19,16 @@
 #### 2️⃣ **속성(Property)**
 
 > 스타일을 적용하려면 속성을 정의해야 합니다. 각 속성은 값이 필요하며, 그 값에 따라 스타일이 적용됩니다.
-> 예를 들어, `color`, `font-size`, `margin`, `padding`, `background-color` 등이 있습니다.
+> 예를 들어, `color`, `font-size`, `margin`, `padding`, `background-color` 등이 있습니다.<br>　
 
 #### 3️⃣ **값(Value)**
 
 > 속성에 대한 실제 값입니다.
-> 예를 들어, `color: red;`에서 `color`는 속성이고, `red`는 값입니다.
+> 예를 들어, `color: red;`에서 `color`는 속성이고, `red`는 값입니다.<br>　
 
 #### 4️⃣ **구문(Syntax)**
 
-> CSS는 `{}`로 둘러싸인 규칙의 집합으로 구성됩니다. 각 규칙은 `선택자 { 속성: 값; }` 형식을 따릅니다.
+> CSS는 `{}`로 둘러싸인 규칙의 집합으로 구성됩니다. 각 규칙은 `선택자 { 속성: 값; }` 형식을 따릅니다.<br>　
 
 예시)
 ```html
@@ -37,14 +37,14 @@ h1 {
    font-size: 30px;
 }
 ```
-위의 예시는 `h1` 태그에 파란색 글꼴과 30px 크기를 적용한 CSS 규칙입니다.
+위의 예시는 `h1` 태그에 파란색 글꼴과 30px 크기를 적용한 CSS 규칙입니다.<br>　
 　
 * * *
 　
 ### ❓ **CSS 적용 방법**
 
 #### 1️⃣ **내부 스타일(Internal CSS)**
-HTML 문서 내에서 `<style>` 태그를 사용하여 CSS를 정의합니다. `<style>` 태그는 `<head>` 태그 안에 위치합니다.
+HTML 문서 내에서 `<style>` 태그를 사용하여 CSS를 정의합니다. `<style>` 태그는 `<head>` 태그 안에 위치합니다.<br>　
    
 예시)
 ```html
@@ -65,7 +65,7 @@ HTML 문서 내에서 `<style>` 태그를 사용하여 CSS를 정의합니다. `
 ```
 
 #### 2️⃣ **외부 스타일(External CSS)**
-CSS 코드를 별도의 `.css` 파일로 작성하고, HTML 문서에서 링크를 통해 연결합니다. 이 방법은 여러 HTML 파일에서 동일한 스타일을 공유할 때 유용합니다.
+CSS 코드를 별도의 `.css` 파일로 작성하고, HTML 문서에서 링크를 통해 연결합니다. 이 방법은 여러 HTML 파일에서 동일한 스타일을 공유할 때 유용합니다.<br>　
 
 예시)
 * **style.css**(외부 CSS 파일)
@@ -90,7 +90,8 @@ h1 {
 ```
 
 #### 3️⃣ **인라인 스타일(Inline CSS)**
-HTML 태그에 직접 `style` 속성을 사용하여 CSS를 적용하는 방법입니다. 이 방법은 한 요소에만 스타일을 적용할 때 사용됩니다.
+
+HTML 태그에 직접 `style` 속성을 사용하여 CSS를 적용하는 방법입니다. 이 방법은 한 요소에만 스타일을 적용할 때 사용됩니다.<br>　
 
 예시)
 ```html
@@ -126,7 +127,7 @@ body {
 
 #### 3️⃣ **박스 모델 속성**
 
-박스 모델(Box Model)은 HTML 요소가 웹 페이지에서 차지하는 공간을 정의합니다. 이 모델은 마진(margin), 경계(border), 패딩(padding), 콘텐츠(content)로 구성됩니다.
+박스 모델(Box Model)은 HTML 요소가 웹 페이지에서 차지하는 공간을 정의합니다. 이 모델은 마진(margin), 경계(border), 패딩(padding), 콘텐츠(content)로 구성됩니다.<br>　
 
 ```css
 div {
@@ -140,7 +141,7 @@ div {
 
 #### 4️⃣ **플렉스박스(Flexbox) 레이아웃**
 
-플렉스박스는 요소들을 간단하게 정렬하고 배치하는 데 유용한 CSS 레이아웃 모듈입니다.
+플렉스박스는 요소들을 간단하게 정렬하고 배치하는 데 유용한 CSS 레이아웃 모듈입니다.<br>　
 
 ```css
 .container {
@@ -165,34 +166,34 @@ div {
 * `font-family`: 글꼴 지정.
 * `font-weight`: 텍스트 두께(굵기) 지정.
 * `line-height`: 텍스트 줄 간격 지정.
-* `text-align`: 텍스트 정렬(예: left, center, right).
+* `text-align`: 텍스트 정렬(예: left, center, right).<br>　
 
 #### 2️⃣ **배경 관련 속성**
 
 * `background-color`: 배경 색상.
 * `background-image`: 배경 이미지.
 * `background-position`: 배경 이미지의 위치.
-* `background-size`: 배경 이미지의 크기 조정.
+* `background-size`: 배경 이미지의 크기 조정.<br>　
 
 #### 3️⃣ **박스 모델 관련 속성**
 
 * `margin`: 요소의 외부 여백.
 * `padding`: 요소의 내부 여백.
 * `border`: 요소의 테두리.
-* `width`, `height`: 요소의 너비와 높이.
+* `width`, `height`: 요소의 너비와 높이.<br>　
 
 #### 4️⃣ **레이아웃 관련 속성**
 
 * `display`: 요소의 표시 방식(예: block, inline, flex).
 * `position`: 요소의 위치 지정(예: static, relative, absolute).
 * `float`: 요소를 왼쪽 또는 오른쪽으로 띄우는 데 사용.
-* `clear`: 플로팅된 요소 주위의 공간을 조정.
+* `clear`: 플로팅된 요소 주위의 공간을 조정.<br>　
 
 #### 5️⃣ **변환 및 애니메이션 관련 속성**
 
 * `transform`: 요소를 이동, 회전, 크기 조정 등.
 * `transition`: 속성 변화의 애니메이션 효과.
-* `animation`: 복잡한 애니메이션 효과.
+* `animation`: 복잡한 애니메이션 효과.<br>　
 　
 * * *
 　
