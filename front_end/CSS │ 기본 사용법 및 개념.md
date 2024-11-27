@@ -19,10 +19,12 @@
 #### 2️⃣ **속성(Property)**
 
 > 스타일을 적용하려면 속성을 정의해야 합니다. 각 속성은 값이 필요하며, 그 값에 따라 스타일이 적용됩니다.<br>예를 들어, `color`, `font-size`, `margin`, `padding`, `background-color` 등이 있습니다.
+
 <br><br>
 #### 3️⃣ **값(Value)**
 
 > 속성에 대한 실제 값입니다.<br>예를 들어, `color: red;`에서 `color`는 속성이고, `red`는 값입니다.
+
 <br><br>
 #### 4️⃣ **구문(Syntax)**
 
