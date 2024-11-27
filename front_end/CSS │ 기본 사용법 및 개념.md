@@ -30,7 +30,7 @@
 
 > CSS는 `{}`로 둘러싸인 규칙의 집합으로 구성됩니다. 각 규칙은 `선택자 { 속성: 값; }` 형식을 따릅니다.
 　
-예시)
+###### ex)
 ```html
 h1 {
    color: blue;
@@ -48,7 +48,7 @@ h1 {
 #### 1️⃣ **내부 스타일(Internal CSS)**
 HTML 문서 내에서 `<style>` 태그를 사용하여 CSS를 정의합니다. `<style>` 태그는 `<head>` 태그 안에 위치합니다.
 
-예시)
+###### ex)
 ```html
 <html>
 <head>
@@ -69,7 +69,7 @@ HTML 문서 내에서 `<style>` 태그를 사용하여 CSS를 정의합니다. `
 #### 2️⃣ **외부 스타일(External CSS)**
 CSS 코드를 별도의 `.css` 파일로 작성하고, HTML 문서에서 링크를 통해 연결합니다. 이 방법은 여러 HTML 파일에서 동일한 스타일을 공유할 때 유용합니다.
 
-예시)
+###### ex)
 * **style.css**(외부 CSS 파일)
 ```css
 body {
@@ -95,7 +95,7 @@ h1 {
 
 HTML 태그에 직접 `style` 속성을 사용하여 CSS를 적용하는 방법입니다. 이 방법은 한 요소에만 스타일을 적용할 때 사용됩니다.
 
-예시)
+###### ex)
 ```html
 <h1 style="color: blue; font-size: 30px;">안녕하세요, CSS!</h1>
 ```
@@ -107,7 +107,7 @@ HTML 태그에 직접 `style` 속성을 사용하여 CSS를 적용하는 방법�
 <br><br>
 #### 1️⃣ **텍스트 스타일링**
 
-예시)
+###### ex)
 ```css
 h1 {
   color: red;          /* 텍스트 색상 */
@@ -119,7 +119,7 @@ h1 {
 <br><br>
 #### 2️⃣ **배경 스타일링**
 
-예시)
+###### ex)
 ```css
 body {
   background-color: lightblue;             /* 배경 색상 */
@@ -130,7 +130,7 @@ body {
 <br><br>
 #### 3️⃣ **박스 모델 속성**
 
-박스 모델(Box Model)은 HTML 요소가 웹 페이지에서 차지하는 공간을 정의합니다. 이 모델은 마진(margin), 경계(border), 패딩(padding), 콘텐츠(content)로 구성됩니다.
+박스 모델(Box Model)은 HTML 요소가 웹 페이지에서 차지하는 공간을 정의합니다. 이 모델은 마진(`margin`), 경계(`border`), 패딩(`padding`), 콘텐츠(`content`)로 구성됩니다.
 
 ```css
 div {
@@ -167,39 +167,40 @@ div {
 <br><br>
 #### 1️⃣ **텍스트 관련 속성**
 
-* `color`: 텍스트 색상 지정.
-* `font-size`: 텍스트 크기 지정.
-* `font-family`: 글꼴 지정.
-* `font-weight`: 텍스트 두께(굵기) 지정.
-* `line-height`: 텍스트 줄 간격 지정.
-* `text-align`: 텍스트 정렬(예: left, center, right).
+* `color`: 텍스트 색상 지정
+* `font-size`: 텍스트 크기 지정
+* `font-family`: 글꼴 지정
+* `font-weight`: 텍스트 두께(굵기) 지정
+* `line-height`: 텍스트 줄 간격 지정
+* `text-align`: 텍스트 정렬(예: left, center, right)
 <br><br>
 #### 2️⃣ **배경 관련 속성**
 
-* `background-color`: 배경 색상.
-* `background-image`: 배경 이미지.
-* `background-position`: 배경 이미지의 위치.
-* `background-size`: 배경 이미지의 크기 조정.
+* `background-color`: 배경 색상
+* `background-image`: 배경 이미지
+* `background-position`: 배경 이미지의 위치
+* `background-size`: 배경 이미지의 크기 조정
 <br><br>
 #### 3️⃣ **박스 모델 관련 속성**
 
-* `margin`: 요소의 외부 여백.
-* `padding`: 요소의 내부 여백.
-* `border`: 요소의 테두리.
-* `width`, `height`: 요소의 너비와 높이.
+* `margin`: 요소의 외부 여백
+* `padding`: 요소의 내부 여백
+* `border`: 요소의 테두리
+* `width`, `height`: 요소의 너비와 높이
 <br><br>
 #### 4️⃣ **레이아웃 관련 속성**
 
-* `display`: 요소의 표시 방식(예: block, inline, flex).
-* `position`: 요소의 위치 지정(예: static, relative, absolute).
-* `float`: 요소를 왼쪽 또는 오른쪽으로 띄우는 데 사용.
-* `clear`: 플로팅된 요소 주위의 공간을 조정.
-<br><br>
+* `display`: 요소의 표시 방식(예: block, inline, flex)
+* `position`: 요소의 위치 지정(예: static, relative, absolute)
+* `float`: 요소를 왼쪽 또는 오른쪽으로 띄우는 데 사용
+* `clear`: 플로팅된 요소 주위의 공간을 조정
+<br>
+
 #### 5️⃣ **변환 및 애니메이션 관련 속성**
 
-* `transform`: 요소를 이동, 회전, 크기 조정 등.
-* `transition`: 속성 변화의 애니메이션 효과.
-* `animation`: 복잡한 애니메이션 효과.
+* `transform`: 요소를 이동, 회전, 크기 조정 등
+* `transition`: 속성 변화의 애니메이션 효과
+* `animation`: 복잡한 애니메이션 효과
 　
 * * *
 <br>
