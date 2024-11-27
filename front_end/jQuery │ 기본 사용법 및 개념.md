@@ -47,21 +47,25 @@
 ```javascript
 $('#myElement')
 ```
+<br>
 
 * **클래스 선택자**: `.` 기호를 사용하여 클래스명으로 선택.
 ```javascript
 $('.myClass')
 ```
+<br>
 
 * **태그 선택자**: 태그명을 사용하여 선택.
 ```javascript
 $('div')
 ```
+<br>
 
 * **자식 요소 선택**: 특정 요소의 자식 요소를 선택.
 ```javascript
 $('ul > li')  // <ul>의 직속 <li> 자식 요소들
 ```
+<br>
 
 * **속성 선택자**: 특정 속성 값을 가진 요소 선택.
 ```javascript
